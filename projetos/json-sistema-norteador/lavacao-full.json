@@ -1,0 +1,220 @@
+{
+  "marcas": [
+    { "id": 1, "nome": "Chevrolet" },
+    { "id": 2, "nome": "Fiat" },
+    { "id": 3, "nome": "Toyota" },
+    { "id": 4, "nome": "Ford" },
+    { "id": 5, "nome": "Honda" },
+    { "id": 6, "nome": "Volkswagen" },
+    { "id": 7, "nome": "Hyundai" }
+  ],
+
+  "cores": [
+    { "id": 1, "nome": "Preto" },
+    { "id": 2, "nome": "Branco" },
+    { "id": 3, "nome": "Azul" },
+    { "id": 4, "nome": "Vermelho" },
+    { "id": 5, "nome": "Cinza" },
+    { "id": 6, "nome": "Prata" },
+    { "id": 7, "nome": "Verde" }
+  ],
+
+  "modelos": [
+    { "id": 1,  "descricao": "Equinox",  "id_marca": 1, "categoria": "MEDIO"   },
+    { "id": 2,  "descricao": "Pulse",    "id_marca": 2, "categoria": "MEDIO"   },
+    { "id": 3,  "descricao": "Corolla",  "id_marca": 3, "categoria": "MEDIO"   },
+    { "id": 4,  "descricao": "Fusion",   "id_marca": 4, "categoria": "MEDIO"   },
+    { "id": 5,  "descricao": "Corsa",    "id_marca": 1, "categoria": "PEQUENO" },
+    { "id": 6,  "descricao": "Civic",    "id_marca": 5, "categoria": "MEDIO"   },
+    { "id": 7,  "descricao": "Gol",      "id_marca": 6, "categoria": "PEQUENO" },
+    { "id": 8,  "descricao": "HB20",     "id_marca": 7, "categoria": "PEQUENO" },
+    { "id": 9,  "descricao": "Hilux",    "id_marca": 3, "categoria": "GRANDE"  },
+    { "id": 10, "descricao": "Strada",   "id_marca": 2, "categoria": "MEDIO"   },
+    { "id": 11, "descricao": "Onix",     "id_marca": 1, "categoria": "PEQUENO" },
+    { "id": 12, "descricao": "Tracker",  "id_marca": 1, "categoria": "MEDIO"   }
+  ],
+
+  "motores": [
+    { "id": 1,  "id_modelo": 1,  "potencia": 172, "tipoCombustivel": "GASOLINA" },
+    { "id": 2,  "id_modelo": 2,  "potencia": 130, "tipoCombustivel": "ETANOL"   },
+    { "id": 3,  "id_modelo": 3,  "potencia": 177, "tipoCombustivel": "ETANOL"   },
+    { "id": 4,  "id_modelo": 4,  "potencia": 143, "tipoCombustivel": "FLEX"     },
+    { "id": 5,  "id_modelo": 5,  "potencia": 112, "tipoCombustivel": "GNV"      },
+    { "id": 6,  "id_modelo": 6,  "potencia": 158, "tipoCombustivel": "FLEX"     },
+    { "id": 7,  "id_modelo": 7,  "potencia": 101, "tipoCombustivel": "FLEX"     },
+    { "id": 8,  "id_modelo": 8,  "potencia": 100, "tipoCombustivel": "FLEX"     },
+    { "id": 9,  "id_modelo": 9,  "potencia": 204, "tipoCombustivel": "GASOLINA" },
+    { "id": 10, "id_modelo": 10, "potencia": 135, "tipoCombustivel": "FLEX"     },
+    { "id": 11, "id_modelo": 11, "potencia": 116, "tipoCombustivel": "FLEX"     },
+    { "id": 12, "id_modelo": 12, "potencia": 133, "tipoCombustivel": "FLEX"     }
+  ],
+
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "Edgar",
+      "celular": "(11) 1111-1111",
+      "email": "edgar@ifsc.edu.br",
+      "endereco": "Rua Wenceslau Corrêa de Souza, 45",
+      "dataCadastro": "1996-08-17",
+      "dataNascimento": "1970-04-20",
+      "tipo": "fisica",
+      "cpf": "111.111.111-11"
+    },
+    {
+      "id": 2,
+      "nome": "Marilene",
+      "celular": "(22) 2222-2121",
+      "email": "marilene@ifsc.edu.br",
+      "endereco": "Quadra 1007 Sul Alameda 1 A",
+      "dataCadastro": "2003-06-02",
+      "dataNascimento": "1979-10-18",
+      "tipo": "fisica",
+      "cpf": "222.222.222-22"
+    },
+    {
+      "id": 3,
+      "nome": "Carla",
+      "celular": "(33) 3333-3333",
+      "email": "carla@ifsc.edu.br",
+      "endereco": "Rua Santo Antônio, 200",
+      "dataCadastro": "1986-12-12",
+      "dataNascimento": "1977-02-01",
+      "tipo": "juridica",
+      "cnpj": "11.719.809/0001-94",
+      "inscricaoEstadual": "040.240.270.481"
+    },
+    {
+      "id": 4,
+      "nome": "José",
+      "celular": "(44) 4444-4444",
+      "email": "jose@ifsc.edu.br",
+      "endereco": "Rua Isaura da Sílvia, 88",
+      "dataCadastro": "1968-03-07",
+      "dataNascimento": "1975-08-27",
+      "tipo": "juridica",
+      "cnpj": "22.830.910/0002-05",
+      "inscricaoEstadual": "720.324.234.299"
+    },
+    {
+      "id": 5,
+      "nome": "Fernanda Souza",
+      "celular": "(48) 9 9876-5432",
+      "email": "fernanda.souza@email.com",
+      "endereco": "Av. Beira Mar Norte, 1500, Florianópolis",
+      "dataCadastro": "2010-03-15",
+      "dataNascimento": "1990-07-12",
+      "tipo": "fisica",
+      "cpf": "333.444.555-66"
+    },
+    {
+      "id": 6,
+      "nome": "Ricardo Lima",
+      "celular": "(48) 9 9111-2233",
+      "email": "ricardo.lima@email.com",
+      "endereco": "Rua das Flores, 321, São José",
+      "dataCadastro": "2015-07-22",
+      "dataNascimento": "1985-11-03",
+      "tipo": "fisica",
+      "cpf": "444.555.666-77"
+    },
+    {
+      "id": 7,
+      "nome": "Auto Peças Meireles Ltda",
+      "celular": "(48) 3232-1010",
+      "email": "contato@meireles.com.br",
+      "endereco": "Rod. SC-401, 5500, Florianópolis",
+      "dataCadastro": "2018-01-10",
+      "dataNascimento": "2000-01-01",
+      "tipo": "juridica",
+      "cnpj": "33.941.021/0001-12",
+      "inscricaoEstadual": "510.430.380.512"
+    },
+    {
+      "id": 8,
+      "nome": "Beatriz Rocha",
+      "celular": "(48) 9 9654-3210",
+      "email": "beatriz.rocha@email.com",
+      "endereco": "Rua Bocaiúva, 10, Centro, Florianópolis",
+      "dataCadastro": "2021-09-05",
+      "dataNascimento": "1998-03-28",
+      "tipo": "fisica",
+      "cpf": "555.666.777-88"
+    }
+  ],
+
+  "pontuacoes": [
+    { "id": 1, "id_cliente": 1, "quantidade": 30  },
+    { "id": 2, "id_cliente": 2, "quantidade": 0   },
+    { "id": 3, "id_cliente": 3, "quantidade": 150 },
+    { "id": 4, "id_cliente": 4, "quantidade": 10  },
+    { "id": 5, "id_cliente": 5, "quantidade": 80  },
+    { "id": 6, "id_cliente": 6, "quantidade": 45  },
+    { "id": 7, "id_cliente": 7, "quantidade": 320 },
+    { "id": 8, "id_cliente": 8, "quantidade": 5   }
+  ],
+
+  "veiculos": [
+    { "id": 1,  "placa": "KDC-0230", "observacoes": "Carro 2010, amassado no para-choque", "id_modelo": 4,  "id_cor": 1, "id_cliente": 1 },
+    { "id": 2,  "placa": "NAJ-9579", "observacoes": "Carro 2008, precisa de polimento",    "id_modelo": 5,  "id_cor": 5, "id_cliente": 2 },
+    { "id": 3,  "placa": "JVV-4555", "observacoes": "Carro 2018",                          "id_modelo": 3,  "id_cor": 4, "id_cliente": 3 },
+    { "id": 4,  "placa": "AZX-7081", "observacoes": "Carro 2005, motor revisado",          "id_modelo": 1,  "id_cor": 3, "id_cliente": 4 },
+    { "id": 5,  "placa": "PQR-1122", "observacoes": "Carro 2020, novo",                    "id_modelo": 6,  "id_cor": 2, "id_cliente": 5 },
+    { "id": 6,  "placa": "BCD-3344", "observacoes": "Carro 2015, vidros escuros",          "id_modelo": 7,  "id_cor": 6, "id_cliente": 6 },
+    { "id": 7,  "placa": "EFG-5566", "observacoes": "Carro 2019, couro bege",              "id_modelo": 12, "id_cor": 2, "id_cliente": 7 },
+    { "id": 8,  "placa": "HIJ-7788", "observacoes": "Carro 2017, arranhão na lateral",     "id_modelo": 8,  "id_cor": 1, "id_cliente": 8 },
+    { "id": 9,  "placa": "LMN-9900", "observacoes": "Caminhonete 2022",                    "id_modelo": 9,  "id_cor": 5, "id_cliente": 3 },
+    { "id": 10, "placa": "OPQ-2233", "observacoes": "Carro 2016, teto solar",              "id_modelo": 10, "id_cor": 7, "id_cliente": 1 },
+    { "id": 11, "placa": "RST-4455", "observacoes": "Carro 2021",                          "id_modelo": 11, "id_cor": 4, "id_cliente": 5 }
+  ],
+
+  "servicos": [
+    { "id": 1, "descricao": "Lavação Pequena",          "valor": 75.50,  "pontos": 10, "categoria": "PEQUENO" },
+    { "id": 2, "descricao": "Lavação Média",             "valor": 115.25, "pontos": 15, "categoria": "MEDIO"   },
+    { "id": 3, "descricao": "Polimento Médio",           "valor": 105.68, "pontos": 15, "categoria": "MEDIO"   },
+    { "id": 4, "descricao": "Lavação Grande",            "valor": 180.00, "pontos": 20, "categoria": "GRANDE"  },
+    { "id": 5, "descricao": "Lavação Moto",              "valor": 55.00,  "pontos": 8,  "categoria": "MOTO"    },
+    { "id": 6, "descricao": "Polimento Completo Grande", "valor": 280.00, "pontos": 30, "categoria": "GRANDE"  },
+    { "id": 7, "descricao": "Higienização Interna",      "valor": 200.00, "pontos": 25, "categoria": "PADRAO"  },
+    { "id": 8, "descricao": "Cera Protetora",            "valor": 90.00,  "pontos": 12, "categoria": "PADRAO"  },
+    { "id": 9, "descricao": "Lavação + Cera Pequeno",    "valor": 140.00, "pontos": 18, "categoria": "PEQUENO" }
+  ],
+
+  "ordens_servico": [
+    { "id": 1,  "total": 190.75, "agenda": "2022-11-20", "desconto": 0.00,  "id_veiculo": 1,  "status": "FECHADA"   },
+    { "id": 2,  "total": 115.25, "agenda": "2023-01-10", "desconto": 0.00,  "id_veiculo": 2,  "status": "FECHADA"   },
+    { "id": 3,  "total": 285.68, "agenda": "2023-03-05", "desconto": 10.00, "id_veiculo": 3,  "status": "FECHADA"   },
+    { "id": 4,  "total": 180.00, "agenda": "2023-05-18", "desconto": 0.00,  "id_veiculo": 4,  "status": "CANCELADA" },
+    { "id": 5,  "total": 305.68, "agenda": "2023-07-22", "desconto": 0.00,  "id_veiculo": 5,  "status": "FECHADA"   },
+    { "id": 6,  "total": 200.00, "agenda": "2023-09-14", "desconto": 20.00, "id_veiculo": 6,  "status": "FECHADA"   },
+    { "id": 7,  "total": 90.00,  "agenda": "2023-10-30", "desconto": 0.00,  "id_veiculo": 7,  "status": "FECHADA"   },
+    { "id": 8,  "total": 460.00, "agenda": "2024-01-08", "desconto": 0.00,  "id_veiculo": 9,  "status": "FECHADA"   },
+    { "id": 9,  "total": 140.00, "agenda": "2024-02-20", "desconto": 0.00,  "id_veiculo": 8,  "status": "FECHADA"   },
+    { "id": 10, "total": 280.00, "agenda": "2024-04-03", "desconto": 15.00, "id_veiculo": 3,  "status": "FECHADA"   },
+    { "id": 11, "total": 115.25, "agenda": "2024-06-11", "desconto": 0.00,  "id_veiculo": 10, "status": "FECHADA"   },
+    { "id": 12, "total": 75.50,  "agenda": "2024-08-25", "desconto": 0.00,  "id_veiculo": 11, "status": "ABERTA"    },
+    { "id": 13, "total": 280.00, "agenda": "2024-09-02", "desconto": 0.00,  "id_veiculo": 2,  "status": "ABERTA"    },
+    { "id": 14, "total": 200.00, "agenda": "2024-09-10", "desconto": 0.00,  "id_veiculo": 5,  "status": "ABERTA"    }
+  ],
+
+  "itens_os": [
+    { "id": 1,  "valorServico": 75.50,  "observacoes": "Lavação externa completa",        "id_servico": 1, "id_ordem_servico": 1  },
+    { "id": 2,  "valorServico": 115.25, "observacoes": "Lavação completa com aspiração",  "id_servico": 2, "id_ordem_servico": 1  },
+    { "id": 3,  "valorServico": 115.25, "observacoes": "Lavação completa",                "id_servico": 2, "id_ordem_servico": 2  },
+    { "id": 4,  "valorServico": 180.00, "observacoes": "Lavação grande com motor",        "id_servico": 4, "id_ordem_servico": 3  },
+    { "id": 5,  "valorServico": 105.68, "observacoes": "Polimento lateral direita",       "id_servico": 3, "id_ordem_servico": 3  },
+    { "id": 6,  "valorServico": 180.00, "observacoes": "Lavação completa SUV",            "id_servico": 4, "id_ordem_servico": 4  },
+    { "id": 7,  "valorServico": 200.00, "observacoes": "Higienização bancos e carpetes",  "id_servico": 7, "id_ordem_servico": 5  },
+    { "id": 8,  "valorServico": 105.68, "observacoes": "Polimento capô e teto",           "id_servico": 3, "id_ordem_servico": 5  },
+    { "id": 9,  "valorServico": 200.00, "observacoes": "Higienização interna profunda",   "id_servico": 7, "id_ordem_servico": 6  },
+    { "id": 10, "valorServico": 90.00,  "observacoes": "Cera nanotecnológica",            "id_servico": 8, "id_ordem_servico": 7  },
+    { "id": 11, "valorServico": 280.00, "observacoes": "Polimento completo caminhonete",  "id_servico": 6, "id_ordem_servico": 8  },
+    { "id": 12, "valorServico": 180.00, "observacoes": "Lavação grande com motor",        "id_servico": 4, "id_ordem_servico": 8  },
+    { "id": 13, "valorServico": 140.00, "observacoes": "Lavação + cera HB20",             "id_servico": 9, "id_ordem_servico": 9  },
+    { "id": 14, "valorServico": 280.00, "observacoes": "Polimento completo Corolla",      "id_servico": 6, "id_ordem_servico": 10 },
+    { "id": 15, "valorServico": 115.25, "observacoes": "Lavação completa Strada",         "id_servico": 2, "id_ordem_servico": 11 },
+    { "id": 16, "valorServico": 75.50,  "observacoes": "Lavação simples Onix",            "id_servico": 1, "id_ordem_servico": 12 },
+    { "id": 17, "valorServico": 280.00, "observacoes": "Polimento completo Corsa",        "id_servico": 6, "id_ordem_servico": 13 },
+    { "id": 18, "valorServico": 200.00, "observacoes": "Higienização interna Civic",      "id_servico": 7, "id_ordem_servico": 14 }
+  ]
+}

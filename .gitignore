@@ -1,0 +1,22 @@
+# Sistema / editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Dependências e build
+node_modules/
+dist/
+target/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Ambiente e segredos
+.env
+*.log
+
+# Material de terceiros (livros, planos de ensino, slides)
+Livro*.pdf
+Plano de Ensino*.pdf

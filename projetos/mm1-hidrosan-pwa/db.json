@@ -1,0 +1,57 @@
+{
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "Tubo PVC DN 100 PN 10",
+      "categoria": "Tubulações e Adutoras",
+      "preco": 145.5,
+      "unidade": "barra 6m",
+      "rugosidade_c": 140,
+      "descricao": "Tubo de PVC para adutoras e redes de distribuição de água potável (C=140 na expressão de Hazen-Williams)."
+    },
+    {
+      "id": "2",
+      "nome": "Bomba Centrífuga Submersível 3 CV",
+      "categoria": "Estações Elevatórias",
+      "preco": 2890,
+      "unidade": "un",
+      "vazao_max": "18 m³/h",
+      "descricao": "Bomba indicada para elevatórias de esgoto sanitário e drenagem pluvial com sólidos em suspensão."
+    },
+    {
+      "id": "3",
+      "nome": "Válvula Redutora de Pressão DN 50",
+      "categoria": "Controle Hidráulico",
+      "preco": 820,
+      "unidade": "un",
+      "pressao_trabalho": "10 bar",
+      "descricao": "Controla sobrepressões na rede de abastecimento, minimizando riscos de rompimento e perdas reais de água."
+    },
+    {
+      "id": "4",
+      "nome": "Hidrômetro Taquimétrico Monojato DN 20",
+      "categoria": "Medição e Micromedição",
+      "preco": 115,
+      "unidade": "un",
+      "vazao_nominal": "1.5 m³/h",
+      "descricao": "Medição volumétrica para ligações prediais de água com relojoaria orientável a 360°."
+    }
+  ],
+  "pedidos": [
+    {
+      "data": "2026-10-13T02:11:17.960Z",
+      "itens": [
+        {
+          "id": "4",
+          "nome": "Hidrômetro Taquimétrico Monojato DN 20",
+          "preco": 115,
+          "unidade": "un",
+          "quantidade": 1
+        }
+      ],
+      "total": 115,
+      "id": "BTMvJTAUeYk"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

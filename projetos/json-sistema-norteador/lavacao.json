@@ -1,0 +1,118 @@
+{
+  "marcas": [
+    { "id": 1, "nome": "Chevrolet" },
+    { "id": 2, "nome": "Fiat" },
+    { "id": 3, "nome": "Toyota" },
+    { "id": 4, "nome": "Ford" }
+  ],
+
+  "cores": [
+    { "id": 1, "nome": "Preto" },
+    { "id": 2, "nome": "Branco" },
+    { "id": 3, "nome": "Azul" },
+    { "id": 4, "nome": "Vermelho" },
+    { "id": 5, "nome": "Cinza" }
+  ],
+
+  "modelos": [
+    { "id": 1, "descricao": "Equinox",  "id_marca": 1, "categoria": "MEDIO" },
+    { "id": 2, "descricao": "Pulse",    "id_marca": 2, "categoria": "MEDIO" },
+    { "id": 3, "descricao": "Corolla",  "id_marca": 3, "categoria": "MEDIO" },
+    { "id": 4, "descricao": "Fusion",   "id_marca": 4, "categoria": "MEDIO" },
+    { "id": 5, "descricao": "Corsa",    "id_marca": 1, "categoria": "MEDIO" }
+  ],
+
+  "motores": [
+    { "id": 1, "id_modelo": 1, "potencia": 172, "tipoCombustivel": "GASOLINA" },
+    { "id": 2, "id_modelo": 2, "potencia": 130, "tipoCombustivel": "ETANOL"   },
+    { "id": 3, "id_modelo": 3, "potencia": 177, "tipoCombustivel": "ETANOL"   },
+    { "id": 4, "id_modelo": 4, "potencia": 143, "tipoCombustivel": "FLEX"     },
+    { "id": 5, "id_modelo": 5, "potencia": 112, "tipoCombustivel": "GNV"      }
+  ],
+
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "Edgar",
+      "celular": "(11) 1111-1111",
+      "email": "edgar@ifsc.edu.br",
+      "endereco": "Rua Wenceslau Corrêa de Souza",
+      "dataCadastro": "1996-08-17",
+      "dataNascimento": "1970-04-20",
+      "tipo": "fisica",
+      "cpf": "111.111.111-11"
+    },
+    {
+      "id": 2,
+      "nome": "Marilene",
+      "celular": "(22) 2222-2121",
+      "email": "marilene@ifsc.edu.br",
+      "endereco": "Quadra 1007 Sul Alameda 1 A",
+      "dataCadastro": "2003-06-02",
+      "dataNascimento": "1979-10-18",
+      "tipo": "fisica",
+      "cpf": "222.222.222-22"
+    },
+    {
+      "id": 3,
+      "nome": "Carla",
+      "celular": "(33) 3333-3333",
+      "email": "carla@ifsc.edu.br",
+      "endereco": "Rua Santo Antônio",
+      "dataCadastro": "1986-12-12",
+      "dataNascimento": "1977-02-01",
+      "tipo": "juridica",
+      "cnpj": "11.719.809/0001-94",
+      "inscricaoEstadual": "040.240.270.481"
+    },
+    {
+      "id": 4,
+      "nome": "José",
+      "celular": "(44) 4444-4444",
+      "email": "jose@ifsc.edu.br",
+      "endereco": "Rua Isaura da Sílvia",
+      "dataCadastro": "1968-03-07",
+      "dataNascimento": "1975-08-27",
+      "tipo": "juridica",
+      "cnpj": "11.719.809/0001-94",
+      "inscricaoEstadual": "720.324.234.299"
+    }
+  ],
+
+  "pontuacoes": [
+    { "id": 1, "id_cliente": 1, "quantidade": 30  },
+    { "id": 2, "id_cliente": 2, "quantidade": 0   },
+    { "id": 3, "id_cliente": 3, "quantidade": 150 },
+    { "id": 4, "id_cliente": 4, "quantidade": 10  }
+  ],
+
+  "veiculos": [
+    { "id": 1, "placa": "KDC-0230", "observacoes": "Carro 2010", "id_modelo": 4, "id_cor": 1, "id_cliente": 1 },
+    { "id": 2, "placa": "NAJ-9579", "observacoes": "Carro 2008", "id_modelo": 5, "id_cor": 5, "id_cliente": 2 },
+    { "id": 3, "placa": "JVV-4555", "observacoes": "Carro 2018", "id_modelo": 3, "id_cor": 4, "id_cliente": 3 },
+    { "id": 4, "placa": "AZX-7081", "observacoes": "Carro 2005", "id_modelo": 1, "id_cor": 3, "id_cliente": 4 }
+  ],
+
+  "servicos": [
+    { "id": 1, "descricao": "Lavação Pequena", "valor": 75.50,  "pontos": 10, "categoria": "PEQUENO" },
+    { "id": 2, "descricao": "Lavação Média",   "valor": 115.25, "pontos": 10, "categoria": "MEDIO"   },
+    { "id": 3, "descricao": "Polimento Médio", "valor": 105.68, "pontos": 10, "categoria": "MEDIO"   },
+    { "id": 4, "descricao": "Lavação Grande",  "valor": 180.00, "pontos": 10, "categoria": "GRANDE"  }
+  ],
+
+  "ordens_servico": [
+    {
+      "id": 1,
+      "total": 190.75,
+      "agenda": "2022-11-20",
+      "desconto": 0.00,
+      "id_veiculo": 1,
+      "status": "FECHADA"
+    }
+  ],
+
+  "itens_os": [
+    { "id": 1, "valorServico": 75.50,  "observacoes": "Lavação Bicicleta", "id_servico": 1, "id_ordem_servico": 1 },
+    { "id": 2, "valorServico": 115.25, "observacoes": "Lavação Mobi",      "id_servico": 2, "id_ordem_servico": 1 }
+  ]
+}
